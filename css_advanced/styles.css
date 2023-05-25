@@ -1,0 +1,34 @@
+body {
+    
+    background-image: url(images/background.jpg);
+}
+
+header.headerdiv {
+    position: absolute;
+    width: 1103.41px;
+    height: 29.46px;
+    left: 171.59px;
+    top: 35.02px;
+    border-color: aqua;
+}
+
+body .headerdiv2 {
+    position: absolute;
+    align-items: center;
+    right: 20px;
+    top: 35.02px;
+    color: FFFFFF;
+}
+
+body .top {
+}
+
+body .maindiv {
+    background-image: url(images/background.jpg);
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    left: 0px;
+    top: 0px;
+}
+
