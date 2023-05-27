@@ -1,0 +1,22 @@
+html {
+    font-family: 'Source Sans Pro';
+    background: black;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.navlinks > a {
+    margin-left: 20px;
+    margin-right: 20px;
+}

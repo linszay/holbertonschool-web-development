@@ -1,34 +1,106 @@
-body {
-    
+.heroimage {
     background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    margin: 0;
+    padding: 0;
 }
 
-header.headerdiv {
-    position: absolute;
-    width: 1103.41px;
-    height: 29.46px;
-    left: 171.59px;
-    top: 35.02px;
-    border-color: aqua;
-}
-
-body .headerdiv2 {
-    position: absolute;
+.herotxt {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    right: 20px;
-    top: 35.02px;
-    color: FFFFFF;
+
+    >h1 {
+        font-size: 100px;
+        margin: 0;
+    }
+
+    >button {
+        color: #FFFFFF;
+        background-color: #C271FF;
+        border-radius: 22px;
+        padding: 14px;
+    }
 }
 
-body .top {
+.words {
+
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
-body .maindiv {
-    background-image: url(images/background.jpg);
-    position: absolute;
-    width: 1440px;
-    height: 1093px;
-    left: 0px;
-    top: 0px;
+.proSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    >h2 {
+        color:#FFFFFF;
+    }
 }
 
+.purple {
+    color: #C271FF;
+}
+
+.pros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    width: 100vw;
+}
+
+.styledpro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    >p {
+        margin: 1px;
+    }
+}
+
+.reviews {
+    background-color: #C271FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.reviewtxt {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    >p {
+        margin-left: 40px;
+    }
+}
+
+.tutorialTitle {
+    color: #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.tutorials {
+    color: #071629;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    >p {
+        margin-right: 40px;
+    }
+}
